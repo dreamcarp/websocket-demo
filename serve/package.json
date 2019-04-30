@@ -1,5 +1,5 @@
 {
-  "name": "node-ws-test",
+  "name": "node-serve",
   "version": "0.0.1",
   "repository": {
     "type": "git",
@@ -7,12 +7,10 @@
   },
   "dependencies": {
     "express": "^4.4.5",
-    "ws": "0.4.x"
+    "ws": "^1.1.1"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "10.8.0"
   },
-  "scripts": {
-    "start": "node index.js"
-  }
+  "scripts": {}
 }
