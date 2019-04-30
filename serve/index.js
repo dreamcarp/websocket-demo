@@ -12,8 +12,8 @@ server.listen(port)
 let wss = new WebSocketServer({ server: server })
 
 wss.on('connection', function (ws) {
-  let id = setInterval(function ()
-    ws.send(JSON.stringify({ 'random': Math.random() }), function () { })
+  let id = setInterval(function() {
+      ws.send(JSON.stringify({ 'random': Math.random() }), function() {  })
   }, 10000)
   console.log('websocket connection open')
 
