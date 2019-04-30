@@ -1,15 +1,23 @@
 # websock-client
 
 ## Project setup
+### web
 ```
+npm install
+```
+### serve
+```
+cd  serve
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+### web
 ```
 npm run serve
 ```
-
+### serve
+npm run start
 ### Compiles and minifies for production
 ```
 npm run build
